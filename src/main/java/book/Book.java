@@ -1,4 +1,4 @@
-package exo1;
+package book;
 
 import java.util.Date;
 
