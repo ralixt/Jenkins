@@ -8,26 +8,26 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AccountTest {
 
-    @MethodSource
+    @Test
     void getId() {
         Account account = new Account(1000, 120.10, 0.20);
         Assertions.assertEquals(1000 ,account.getId());
     }
 
-    @MethodSource
+    @Test
     void setId() {
         Account account = new Account(1000, 120.10, 0.20);
         account.setId(500);
         Assertions.assertEquals(500 ,account.getId());
     }
 
-    @MethodSource
+    @Test
     void getSolde() {
         Account account = new Account(1000, 120.10, 0.20);
         Assertions.assertEquals(120.10 ,account.getSolde());
     }
 
-    @MethodSource
+    @Test
     void setSolde() {
         Account account = new Account(1000, 120.10, 1.20);
         account.setSolde(595.55);
@@ -35,27 +35,27 @@ class AccountTest {
 
     }
 
-    @MethodSource
+    @Test
     void getTauxInteret() {
         Account account = new Account(1000, 120.10, 0.20);
         Assertions.assertEquals(0.20, account.getTauxInteret());
     }
 
-    @MethodSource
+    @Test
     void setTauxInteret() {
         Account account = new Account(1000, 120.10, 0.20);
         account.setTauxInteret(0.5);
         Assertions.assertEquals(0.5, account.getTauxInteret());
     }
 
-    @MethodSource
+    @Test
     void depot() {
         Account account = new Account(1000, 120.10, 0.20);
         account.depot(10000);
         Assertions.assertEquals(10120.10, account.getSolde());
     }
 
-    @MethodSource
+    @Test
     void retrait() {
         Account account = new Account(1000, 120.10, 0.20);
         account.retrait(20);
@@ -63,7 +63,7 @@ class AccountTest {
 
     }
 
-    @MethodSource
+    @Test
     void transfert() {
         Account a1 = new Account(1000, 1000.76, 0.20);
         Account a2 = new Account(1000, 140.10, 0.20);
@@ -72,7 +72,7 @@ class AccountTest {
         Assertions.assertEquals(640.10, a2.getSolde());
     }
 
-    @MethodSource
+    @Test
     void interet() {
         Account account = new Account(1000, 120.10, 0.20);
 
