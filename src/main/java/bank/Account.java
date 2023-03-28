@@ -35,6 +35,25 @@ public class Account {
         this.tauxInteret = tauxInteret;
     }
 
+    public void depot (double montant) {
+        solde += montant;
+
+    }
+
+    public void retrait (double montant) {
+        solde -= montant;
+    }
+
+    public void transfert (Account destination, double montant) {
+        solde -= montant;
+        destination.depot(montant);
+    }
+
+    public double interet () {
+        double result = solde * (tauxInteret/100);
+        return result;
+    }
+
 
 
 }

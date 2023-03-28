@@ -46,5 +46,5 @@ class BookTest {
         book.setDate("1500");
         Assertions.assertEquals("1500", book.getDate());
     }
-    
+
 }
