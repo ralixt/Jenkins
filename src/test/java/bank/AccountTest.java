@@ -66,7 +66,7 @@ class AccountTest {
     @Test
     void transfert() {
         Account a1 = new Account(1000, 1000.76, 0.20);
-        Account a2 = new Account(1000, 140.10, 0.20);
+        Account a2 = new Account(120, 140.10, 0.20);
         a1.transfert(a2,500);
         Assertions.assertEquals(500.76, a1.getSolde());
         Assertions.assertEquals(640.10, a2.getSolde());

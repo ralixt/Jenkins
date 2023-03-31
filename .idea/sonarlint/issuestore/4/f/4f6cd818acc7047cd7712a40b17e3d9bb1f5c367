@@ -1,6 +1,0 @@
-
-…
-java:S1319	"hThe type of "accounts" should be an interface such as "List" rather than the implementation "ArrayList".(Œç’ö8±…ÉÆò0
-
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ò…³¤8±…ÉÆò0
-U	java:S106"9Replace this use of System.out or System.err by a logger.(÷Ï¼ğ8¹Ñ™Ÿó0

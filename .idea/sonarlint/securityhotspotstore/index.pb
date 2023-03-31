@@ -7,11 +7,3 @@ L
 src/main/java/book/Book.java,b\e\be4f461a775d1ae400fb1579182a8f713e68b0ac
 P
  src/test/java/book/BookTest.java,8\a\8aca1cda87d0f6199ab3d0e10fecf5e56b5d4e63
-O
-src/main/java/bank/Account.java,1\6\161eed6c79810259debe54240341b1e5515b928d
-S
-#src/test/java/bank/AccountTest.java,5\2\52be724b1a0dec152477dd023a81b11bad62ef6d
-L
-src/main/java/bank/Bank.java,4\f\4f6cd818acc7047cd7712a40b17e3d9bb1f5c367
-P
- src/test/java/bank/BankTest.java,0\e\0eff8ad80e97001ded7f4c05d898ee2df4484ecd

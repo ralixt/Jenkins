@@ -25,7 +25,7 @@ public class Bank {
 
     public void afficherAccount() {
         for (Account account : accounts) {
-            System.out.println("Account " + account.getId() + ": Montant = " + account.getBalance());
+            System.out.println("Account " + account.getId() + ": Montant = " + account.getSolde() + " \n");
         }
 
     }
