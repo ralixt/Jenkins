@@ -8,39 +8,39 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class BookTest {
 
-    @MethodSource
+    @Test
     void getTitle() {
         Book book = new Book("Les fourberies de Scapin", "Molière", "1671");
         Assertions.assertEquals("Les fourberies de Scapin", book.getTitle());
     }
 
-    @MethodSource
+    @Test
     void setTitle() {
         Book book = new Book("Les fourberies de Scapin", "Molière", "1671");
         book.setTitle("Ok");
         Assertions.assertEquals("Ok", book.getTitle());
     }
 
-    @MethodSource
+    @Test
     void getAuthor() {
         Book book = new Book("Les fourberies de Scapin", "Molière", "1671");
         Assertions.assertEquals("Molière", book.getAuthor());
     }
 
-    @MethodSource
+    @Test
     void setAuthor() {
         Book book = new Book("Les fourberies de Scapin", "Molière", "1671");
         book.setAuthor("Ok");
         Assertions.assertEquals("Ok", book.getAuthor());
     }
 
-    @MethodSource
+    @Test
     void getDate() {
         Book book = new Book("Les fourberies de Scapin", "Molière", "1671");
         Assertions.assertEquals("1671", book.getDate());
     }
 
-    @MethodSource
+    @Test
     void setDate() {
         Book book = new Book("Les fourberies de Scapin", "Molière", "1671");
         book.setDate("1500");
