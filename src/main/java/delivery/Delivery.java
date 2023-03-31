@@ -2,7 +2,15 @@ package delivery;
 
 public class Delivery {
 
-    public double coutLivraision (double distance, double poids){
+    private double distance;
+    private double poids;
+
+    public Delivery(double distance, double poids) {
+        this.distance = distance;
+        this.poids = poids;
+    }
+
+    public double coutLivraision (){
         double cout = 10.0;
 
         if (distance > 50) {
